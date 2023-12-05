@@ -17,3 +17,5 @@ def transcribe_audio(audio_file_path):
         transcription = client.audio.transcriptions.create("whisper-1", audio_file)
     return transcription['text']
 
+
+
